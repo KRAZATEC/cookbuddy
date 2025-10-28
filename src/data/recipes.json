@@ -1,0 +1,902 @@
+[
+  {
+    "name": "Idli",
+    "ingredients": ["Rice", "Urad Dal", "Fenugreek Seeds", "Salt"],
+    "quantities": ["2 cups", "1 cup", "1 tsp", "to taste"]
+  },
+  {
+    "name": "Dosa",
+    "ingredients": ["Rice", "Urad Dal", "Fenugreek Seeds", "Salt", "Oil"],
+    "quantities": ["3 cups", "1 cup", "1/2 tsp", "to taste", "for cooking"]
+  },
+  {
+    "name": "Medu Vada",
+    "ingredients": ["Urad Dal", "Green Chillies", "Ginger", "Curry Leaves", "Asafoetida", "Salt", "Oil"],
+    "quantities": ["1 cup", "2-3", "1 inch", "8-10", "a pinch", "to taste", "for frying"]
+  },
+  {
+    "name": "Sambar",
+    "ingredients": ["Toor Dal", "Tamarind", "Sambar Powder", "Vegetables", "Mustard Seeds", "Curry Leaves", "Salt"],
+    "quantities": ["1 cup", "lemon-sized", "2 tbsp", "2 cups mixed", "1 tsp", "10-12", "to taste"]
+  },
+  {
+    "name": "Rasam",
+    "ingredients": ["Toor Dal", "Tamarind", "Tomatoes", "Rasam Powder", "Garlic", "Curry Leaves", "Coriander"],
+    "quantities": ["1/2 cup", "small lemon-sized", "2 medium", "1.5 tbsp", "5-6 cloves", "10-12", "for garnish"]
+  },
+  {
+    "name": "Upma",
+    "ingredients": ["Rava/Semolina", "Onion", "Green Chillies", "Ginger", "Curry Leaves", "Mustard Seeds", "Urad Dal", "Salt"],
+    "quantities": ["1 cup", "1 medium", "2", "1 inch", "8-10", "1 tsp", "1 tsp", "to taste"]
+  },
+  {
+    "name": "Pongal",
+    "ingredients": ["Rice", "Moong Dal", "Black Pepper", "Cumin Seeds", "Ginger", "Curry Leaves", "Ghee", "Cashews"],
+    "quantities": ["1 cup", "1/2 cup", "1 tsp", "1 tsp", "1 inch", "10-12", "3 tbsp", "10-12"]
+  },
+  {
+    "name": "Rava Kesari",
+    "ingredients": ["Rava/Semolina", "Sugar", "Ghee", "Cashews", "Raisins", "Cardamom", "Food Color", "Water"],
+    "quantities": ["1 cup", "1.5 cups", "1/2 cup", "10-12", "2 tbsp", "3-4 pods", "a pinch", "2.5 cups"]
+  },
+  {
+    "name": "Pesarattu",
+    "ingredients": ["Green Moong Dal", "Rice", "Green Chillies", "Ginger", "Cumin Seeds", "Salt", "Oil"],
+    "quantities": ["1 cup", "1/4 cup", "3-4", "1 inch", "1 tsp", "to taste", "for cooking"]
+  },
+  {
+    "name": "Appam",
+    "ingredients": ["Raw Rice", "Cooked Rice", "Coconut", "Yeast", "Sugar", "Salt"],
+    "quantities": ["2 cups", "1 cup", "1/2 cup grated", "1 tsp", "1 tsp", "to taste"]
+  },
+  {
+    "name": "Idiappam",
+    "ingredients": ["Rice Flour", "Salt", "Water", "Coconut Oil"],
+    "quantities": ["2 cups", "1 tsp", "2.5 cups", "1 tsp"]
+  },
+  {
+    "name": "Puttu",
+    "ingredients": ["Rice Flour", "Grated Coconut", "Salt", "Water"],
+    "quantities": ["2 cups", "1 cup", "1 tsp", "as needed"]
+  },
+  {
+    "name": "Kozhukattai",
+    "ingredients": ["Rice Flour", "Grated Coconut", "Jaggery", "Cardamom", "Salt", "Water"],
+    "quantities": ["1 cup", "1/2 cup", "1/2 cup", "2 pods", "a pinch", "1.5 cups"]
+  },
+  {
+    "name": "Adai",
+    "ingredients": ["Toor Dal", "Chana Dal", "Urad Dal", "Raw Rice", "Red Chillies", "Asafoetida", "Salt"],
+    "quantities": ["1/4 cup", "1/4 cup", "1/4 cup", "1 cup", "4-5", "a pinch", "to taste"]
+  },
+  {
+    "name": "Uttapam",
+    "ingredients": ["Dosa Batter", "Onion", "Tomato", "Green Chillies", "Coriander", "Oil"],
+    "quantities": ["2 cups", "1 chopped", "1 chopped", "2 chopped", "2 tbsp", "for cooking"]
+  },
+  {
+    "name": "Neer Dosa",
+    "ingredients": ["Raw Rice", "Cooked Rice", "Coconut", "Salt", "Water"],
+    "quantities": ["1 cup", "1/2 cup", "1/4 cup grated", "to taste", "as needed"]
+  },
+  {
+    "name": "Kootu",
+    "ingredients": ["Moong Dal", "Mixed Vegetables", "Coconut", "Cumin Seeds", "Green Chillies", "Turmeric", "Salt"],
+    "quantities": ["1/2 cup", "2 cups", "1/4 cup grated", "1 tsp", "2", "1/4 tsp", "to taste"]
+  },
+  {
+    "name": "Avial",
+    "ingredients": ["Mixed Vegetables", "Raw Mango", "Coconut", "Green Chillies", "Cumin Seeds", "Yogurt", "Curry Leaves", "Coconut Oil"],
+    "quantities": ["3 cups", "1/4 cup", "1/2 cup grated", "2-3", "1/2 tsp", "1/2 cup", "10-12", "2 tbsp"]
+  },
+  {
+    "name": "Thoran",
+    "ingredients": ["Cabbage/Beans", "Grated Coconut", "Green Chillies", "Curry Leaves", "Mustard Seeds", "Urad Dal", "Turmeric", "Salt"],
+    "quantities": ["2 cups chopped", "1/2 cup", "2", "10-12", "1 tsp", "1 tsp", "1/4 tsp", "to taste"]
+  },
+  {
+    "name": "Puliyodarai",
+    "ingredients": ["Cooked Rice", "Tamarind", "Puliyodarai Powder", "Peanuts", "Sesame Oil", "Mustard Seeds", "Curry Leaves", "Salt"],
+    "quantities": ["3 cups", "lemon-sized", "3 tbsp", "1/4 cup", "3 tbsp", "1 tsp", "15-20", "to taste"]
+  },
+  {
+    "name": "Curd Rice",
+    "ingredients": ["Cooked Rice", "Yogurt", "Milk", "Cucumber", "Green Chillies", "Ginger", "Curry Leaves", "Mustard Seeds", "Salt"],
+    "quantities": ["2 cups", "1 cup", "1/4 cup", "1 small", "2", "1/2 inch", "8-10", "1 tsp", "to taste"]
+  },
+  {
+    "name": "Lemon Rice",
+    "ingredients": ["Cooked Rice", "Lemon Juice", "Peanuts", "Curry Leaves", "Green Chillies", "Turmeric", "Mustard Seeds", "Urad Dal", "Salt"],
+    "quantities": ["3 cups", "3 tbsp", "1/4 cup", "15-20", "2-3", "1/2 tsp", "1 tsp", "1 tsp", "to taste"]
+  },
+  {
+    "name": "Coconut Rice",
+    "ingredients": ["Cooked Rice", "Grated Coconut", "Cashews", "Curry Leaves", "Green Chillies", "Ginger", "Mustard Seeds", "Chana Dal", "Salt"],
+    "quantities": ["3 cups", "1 cup", "10-12", "15-20", "2-3", "1 inch", "1 tsp", "1 tbsp", "to taste"]
+  },
+  {
+    "name": "Bisi Bele Bath",
+    "ingredients": ["Rice", "Toor Dal", "Mixed Vegetables", "Tamarind", "Bisi Bele Bath Powder", "Jaggery", "Ghee", "Curry Leaves"],
+    "quantities": ["1 cup", "1/2 cup", "2 cups", "small lemon-sized", "3 tbsp", "1 tbsp", "3 tbsp", "10-12"]
+  },
+  {
+    "name": "Kuzhi Paniyaram",
+    "ingredients": ["Dosa Batter", "Onion", "Green Chillies", "Ginger", "Curry Leaves", "Coriander", "Oil"],
+    "quantities": ["2 cups", "1 chopped", "2 chopped", "1 inch grated", "10-12", "2 tbsp", "for cooking"]
+  },
+  {
+    "name": "Vegetable Kurma",
+    "ingredients": ["Mixed Vegetables", "Onion", "Tomato", "Coconut", "Cashews", "Poppy Seeds", "Spices", "Coriander"],
+    "quantities": ["3 cups", "2 medium", "2 medium", "1/2 cup grated", "10-12", "1 tbsp", "as needed", "for garnish"]
+  },
+  {
+    "name": "Chicken Chettinad",
+    "ingredients": ["Chicken", "Onion", "Tomato", "Chettinad Masala", "Curry Leaves", "Coconut", "Tamarind", "Oil"],
+    "quantities": ["500g", "2 medium", "2 medium", "3 tbsp", "15-20", "1/4 cup grated", "small piece", "3 tbsp"]
+  },
+  {
+    "name": "Mutton Sukka",
+    "ingredients": ["Mutton", "Onion", "Ginger-Garlic Paste", "Red Chilli Powder", "Coriander Powder", "Fennel Seeds", "Curry Leaves", "Coconut", "Oil"],
+    "quantities": ["500g", "2 large", "2 tbsp", "2 tsp", "1 tbsp", "1 tsp", "15-20", "1/2 cup grated", "3 tbsp"]
+  },
+  {
+    "name": "Fish Curry",
+    "ingredients": ["Fish", "Tamarind", "Coconut Milk", "Curry Leaves", "Mustard Seeds", "Fenugreek Seeds", "Red Chilli Powder", "Turmeric", "Salt"],
+    "quantities": ["500g", "small lemon-sized", "1 cup", "15-20", "1 tsp", "1/4 tsp", "2 tsp", "1/2 tsp", "to taste"]
+  },
+  {
+    "name": "Kerala Parotta",
+    "ingredients": ["All Purpose Flour", "Egg", "Milk", "Sugar", "Salt", "Oil", "Ghee"],
+    "quantities": ["3 cups", "1", "1/2 cup", "1 tsp", "1 tsp", "1/4 cup", "for layering"]
+  },
+  {
+    "name": "Masala Dosa",
+    "ingredients": ["Dosa Batter", "Potato", "Onion", "Green Chillies", "Mustard Seeds", "Curry Leaves", "Turmeric", "Oil"],
+    "quantities": ["2 cups", "4 medium", "1 large", "2-3", "1 tsp", "10-12", "1/2 tsp", "for cooking"]
+  },
+  {
+    "name": "Rava Dosa",
+    "ingredients": ["Rava/Semolina", "Rice Flour", "All Purpose Flour", "Onion", "Green Chillies", "Cumin Seeds", "Curry Leaves", "Salt"],
+    "quantities": ["1 cup", "1/2 cup", "2 tbsp", "1 chopped", "2-3", "1 tsp", "10-12", "to taste"]
+  },
+  {
+    "name": "Set Dosa",
+    "ingredients": ["Idli Rice", "Poha", "Urad Dal", "Fenugreek Seeds", "Sugar", "Salt", "Baking Soda"],
+    "quantities": ["2 cups", "1/2 cup", "1/2 cup", "1/2 tsp", "1 tsp", "to taste", "1/4 tsp"]
+  },
+  {
+    "name": "Mysore Masala Dosa",
+    "ingredients": ["Dosa Batter", "Potato Masala", "Red Chilli Chutney", "Garlic", "Onion", "Tomato", "Oil"],
+    "quantities": ["2 cups", "2 cups", "1/2 cup", "10 cloves", "1 medium", "1 medium", "for cooking"]
+  },
+  {
+    "name": "Onion Dosa",
+    "ingredients": ["Dosa Batter", "Onion", "Green Chillies", "Coriander", "Curry Leaves", "Oil"],
+    "quantities": ["2 cups", "2 chopped", "3 chopped", "3 tbsp", "10-12", "for cooking"]
+  },
+  {
+    "name": "Ghee Roast Dosa",
+    "ingredients": ["Dosa Batter", "Ghee", "Potato Masala", "Coriander Chutney"],
+    "quantities": ["2 cups", "3-4 tbsp", "1 cup", "for serving"]
+  },
+  {
+    "name": "Podi Dosa",
+    "ingredients": ["Dosa Batter", "Idli Podi", "Ghee", "Onion", "Oil"],
+    "quantities": ["2 cups", "4 tbsp", "2 tbsp", "1 chopped", "for cooking"]
+  },
+  {
+    "name": "Paper Dosa",
+    "ingredients": ["Dosa Batter", "Oil", "Potato Masala"],
+    "quantities": ["2 cups thinned", "for cooking", "optional"]
+  },
+  {
+    "name": "Cheese Dosa",
+    "ingredients": ["Dosa Batter", "Cheese", "Onion", "Tomato", "Green Chillies", "Coriander", "Oil"],
+    "quantities": ["2 cups", "1 cup grated", "1 chopped", "1 chopped", "2 chopped", "2 tbsp", "for cooking"]
+  },
+  {
+    "name": "Paneer Dosa",
+    "ingredients": ["Dosa Batter", "Paneer", "Onion", "Capsicum", "Tomato", "Spices", "Oil"],
+    "quantities": ["2 cups", "200g crumbled", "1 chopped", "1 chopped", "1 chopped", "as needed", "for cooking"]
+  },
+  {
+    "name": "Egg Dosa",
+    "ingredients": ["Dosa Batter", "Egg", "Onion", "Green Chillies", "Coriander", "Oil"],
+    "quantities": ["2 cups", "2", "1 chopped", "2 chopped", "2 tbsp", "for cooking"]
+  },
+  {
+    "name": "Button Idli",
+    "ingredients": ["Idli Batter", "Mustard Seeds", "Urad Dal", "Curry Leaves", "Green Chillies", "Coriander"],
+    "quantities": ["2 cups", "1 tsp", "1 tsp", "10-12", "2-3", "for garnish"]
+  },
+  {
+    "name": "Rava Idli",
+    "ingredients": ["Rava/Semolina", "Yogurt", "Cashews", "Curry Leaves", "Mustard Seeds", "Green Chillies", "Baking Soda", "Salt"],
+    "quantities": ["1 cup", "1/2 cup", "10-12", "8-10", "1 tsp", "2-3", "1/4 tsp", "to taste"]
+  },
+  {
+    "name": "Kanchipuram Idli",
+    "ingredients": ["Idli Batter", "Black Pepper", "Cumin Seeds", "Ginger", "Curry Leaves", "Asafoetida", "Ghee", "Cashews"],
+    "quantities": ["2 cups", "1 tsp", "1 tsp", "1 inch", "15-20", "a pinch", "2 tbsp", "10-12"]
+  },
+  {
+    "name": "Sambar Idli",
+    "ingredients": ["Idli", "Sambar", "Onion", "Curry Leaves", "Coriander"],
+    "quantities": ["8-10 pieces", "2 cups", "1 chopped", "10-12", "for garnish"]
+  },
+  {
+    "name": "Masala Idli",
+    "ingredients": ["Idli", "Onion", "Tomato", "Green Chillies", "Mustard Seeds", "Curry Leaves", "Turmeric", "Oil"],
+    "quantities": ["8-10 pieces", "2 medium", "2 medium", "3-4", "1 tsp", "15-20", "1/2 tsp", "3 tbsp"]
+  },
+  {
+    "name": "Podi Idli",
+    "ingredients": ["Idli", "Idli Podi", "Ghee", "Onion", "Curry Leaves"],
+    "quantities": ["8-10 pieces", "4 tbsp", "3 tbsp", "1 chopped", "10-12"]
+  },
+  {
+    "name": "Thatte Idli",
+    "ingredients": ["Idli Batter", "Poha", "Urad Dal", "Fenugreek Seeds", "Salt"],
+    "quantities": ["2 cups", "1/4 cup", "1/2 cup", "1/2 tsp", "to taste"]
+  },
+  {
+    "name": "Ragi Idli",
+    "ingredients": ["Ragi Flour", "Idli Rice", "Urad Dal", "Fenugreek Seeds", "Salt"],
+    "quantities": ["1/2 cup", "1.5 cups", "3/4 cup", "1/2 tsp", "to taste"]
+  },
+  {
+    "name": "Oats Idli",
+    "ingredients": ["Oats", "Rava/Semolina", "Yogurt", "Carrot", "Curry Leaves", "Green Chillies", "Baking Soda", "Salt"],
+    "quantities": ["1 cup", "1/2 cup", "1/2 cup", "1 grated", "8-10", "2-3", "1/4 tsp", "to taste"]
+  },
+  {
+    "name": "Mini Idli",
+    "ingredients": ["Idli Batter", "Mustard Seeds", "Curry Leaves", "Coconut Chutney", "Sambar"],
+    "quantities": ["2 cups", "1 tsp", "10-12", "for serving", "for serving"]
+  },
+  {
+    "name": "Kara Kuzhambu",
+    "ingredients": ["Tamarind", "Onion", "Tomato", "Sambar Powder", "Jaggery", "Curry Leaves", "Mustard Seeds", "Oil"],
+    "quantities": ["lemon-sized", "2 medium", "2 medium", "3 tbsp", "1 tsp", "15-20", "1 tsp", "3 tbsp"]
+  },
+  {
+    "name": "Mor Kuzhambu",
+    "ingredients": ["Yogurt", "Coconut", "Green Chillies", "Curry Leaves", "Mustard Seeds", "Fenugreek Seeds", "Vegetables", "Salt"],
+    "quantities": ["2 cups", "1/4 cup grated", "2-3", "15-20", "1 tsp", "1/4 tsp", "1 cup", "to taste"]
+  },
+  {
+    "name": "Vatha Kuzhambu",
+    "ingredients": ["Tamarind", "Vada", "Onion", "Tomato", "Sambar Powder", "Curry Leaves", "Mustard Seeds", "Oil"],
+    "quantities": ["lemon-sized", "6-8 pieces", "1 medium", "1 medium", "2 tbsp", "15-20", "1 tsp", "3 tbsp"]
+  },
+  {
+    "name": "Puli Kuzhambu",
+    "ingredients": ["Tamarind", "Sambar Powder", "Jaggery", "Tomato", "Curry Leaves", "Mustard Seeds", "Fenugreek Seeds", "Salt"],
+    "quantities": ["large lemon-sized", "3 tbsp", "1 tbsp", "2 medium", "15-20", "1 tsp", "1/4 tsp", "to taste"]
+  },
+  {
+    "name": "Milagu Rasam",
+    "ingredients": ["Tamarind", "Black Pepper", "Cumin Seeds", "Garlic", "Tomato", "Curry Leaves", "Coriander", "Salt"],
+    "quantities": ["small lemon-sized", "2 tsp", "1 tsp", "8-10 cloves", "1 medium", "15-20", "for garnish", "to taste"]
+  },
+  {
+    "name": "Lemon Rasam",
+    "ingredients": ["Toor Dal", "Lemon Juice", "Rasam Powder", "Green Chillies", "Curry Leaves", "Mustard Seeds", "Coriander", "Salt"],
+    "quantities": ["1/4 cup", "3 tbsp", "1 tbsp", "2-3", "15-20", "1 tsp", "for garnish", "to taste"]
+  },
+  {
+    "name": "Pineapple Rasam",
+    "ingredients": ["Pineapple", "Toor Dal", "Tamarind", "Rasam Powder", "Jaggery", "Curry Leaves", "Mustard Seeds", "Salt"],
+    "quantities": ["1 cup chopped", "1/4 cup", "small piece", "1 tbsp", "1 tsp", "15-20", "1 tsp", "to taste"]
+  },
+  {
+    "name": "Paruppu Rasam",
+    "ingredients": ["Toor Dal", "Tamarind", "Tomato", "Rasam Powder", "Turmeric", "Curry Leaves", "Garlic", "Coriander"],
+    "quantities": ["1/2 cup", "small lemon-sized", "2 medium", "1.5 tbsp", "1/4 tsp", "15-20", "6-8 cloves", "for garnish"]
+  },
+  {
+    "name": "Jeera Rasam",
+    "ingredients": ["Tamarind", "Cumin Seeds", "Black Pepper", "Garlic", "Tomato", "Curry Leaves", "Coriander", "Salt"],
+    "quantities": ["small lemon-sized", "2 tsp", "1 tsp", "8-10 cloves", "1 medium", "15-20", "for garnish", "to taste"]
+  },
+  {
+    "name": "Mysore Rasam",
+    "ingredients": ["Toor Dal", "Tamarind", "Coconut", "Red Chillies", "Coriander Seeds", "Cumin Seeds", "Curry Leaves", "Asafoetida"],
+    "quantities": ["1/2 cup", "lemon-sized", "2 tbsp grated", "4-5", "1 tbsp", "1 tsp", "15-20", "a pinch"]
+  },
+  {
+    "name": "Tomato Rasam",
+    "ingredients": ["Tomato", "Tamarind", "Rasam Powder", "Cumin Seeds", "Black Pepper", "Curry Leaves", "Garlic", "Coriander"],
+    "quantities": ["4 large", "small piece", "1.5 tbsp", "1 tsp", "1 tsp", "15-20", "6-8 cloves", "for garnish"]
+  },
+  {
+    "name": "Coconut Chutney",
+    "ingredients": ["Coconut", "Green Chillies", "Ginger", "Roasted Chana Dal", "Curry Leaves", "Mustard Seeds", "Urad Dal", "Salt"],
+    "quantities": ["1 cup grated", "3-4", "1/2 inch", "1 tbsp", "10-12", "1 tsp", "1 tsp", "to taste"]
+  },
+  {
+    "name": "Tomato Chutney",
+    "ingredients": ["Tomato", "Onion", "Red Chillies", "Garlic", "Tamarind", "Curry Leaves", "Mustard Seeds", "Salt"],
+    "quantities": ["4 medium", "1 medium", "4-5", "4-5 cloves", "small piece", "10-12", "1 tsp", "to taste"]
+  },
+  {
+    "name": "Peanut Chutney",
+    "ingredients": ["Peanuts", "Red Chillies", "Garlic", "Tamarind", "Curry Leaves", "Mustard Seeds", "Salt"],
+    "quantities": ["1 cup roasted", "4-5", "4-5 cloves", "small piece", "10-12", "1 tsp", "to taste"]
+  },
+  {
+    "name": "Mint Chutney",
+    "ingredients": ["Mint Leaves", "Coriander", "Green Chillies", "Onion", "Lemon Juice", "Cumin Seeds", "Salt"],
+    "quantities": ["1 cup", "1/2 cup", "3-4", "1 small", "2 tbsp", "1 tsp", "to taste"]
+  },
+  {
+    "name": "Coriander Chutney",
+    "ingredients": ["Coriander", "Coconut", "Green Chillies", "Cumin Seeds", "Lemon Juice", "Curry Leaves", "Salt"],
+    "quantities": ["2 cups", "1/4 cup grated", "3-4", "1 tsp", "2 tbsp", "10-12", "to taste"]
+  },
+  {
+    "name": "Onion Chutney",
+    "ingredients": ["Onion", "Tomato", "Red Chillies", "Tamarind", "Curry Leaves", "Mustard Seeds", "Oil", "Salt"],
+    "quantities": ["3 large", "1 medium", "5-6", "small piece", "15-20", "1 tsp", "2 tbsp", "to taste"]
+  },
+  {
+    "name": "Ginger Chutney",
+    "ingredients": ["Ginger", "Tamarind", "Red Chillies", "Urad Dal", "Curry Leaves", "Mustard Seeds", "Salt"],
+    "quantities": ["1/2 cup chopped", "lemon-sized", "6-8", "1 tbsp", "15-20", "1 tsp", "to taste"]
+  },
+  {
+    "name": "Mango Thokku",
+    "ingredients": ["Raw Mango", "Red Chilli Powder", "Mustard Seeds", "Fenugreek Seeds", "Turmeric", "Curry Leaves", "Oil", "Salt"],
+    "quantities": ["4 cups grated", "3 tbsp", "2 tsp", "1 tsp", "1 tsp", "20-25", "1/2 cup", "to taste"]
+  },
+  {
+    "name": "Tomato Thokku",
+    "ingredients": ["Tomato", "Red Chilli Powder", "Garlic", "Mustard Seeds", "Fenugreek Seeds", "Curry Leaves", "Oil", "Salt"],
+    "quantities": ["1 kg", "3 tbsp", "10 cloves", "2 tsp", "1 tsp", "20-25", "1/2 cup", "to taste"]
+  },
+  {
+    "name": "Idli Podi",
+    "ingredients": ["Urad Dal", "Chana Dal", "Red Chillies", "Sesame Seeds", "Asafoetida", "Curry Leaves", "Salt"],
+    "quantities": ["1/2 cup", "1/4 cup", "10-12", "2 tbsp", "a pinch", "15-20", "to taste"]
+  },
+  {
+    "name": "Podi Upma",
+    "ingredients": ["Rava/Semolina", "Idli Podi", "Onion", "Green Chillies", "Curry Leaves", "Ghee", "Salt"],
+    "quantities": ["1 cup", "3 tbsp", "1 medium", "2-3", "10-12", "2 tbsp", "to taste"]
+  },
+  {
+    "name": "Vegetable Upma",
+    "ingredients": ["Rava/Semolina", "Mixed Vegetables", "Onion", "Green Chillies", "Ginger", "Curry Leaves", "Mustard Seeds", "Salt"],
+    "quantities": ["1 cup", "1 cup", "1 medium", "2-3", "1 inch", "10-12", "1 tsp", "to taste"]
+  },
+  {
+    "name": "Vermicelli Upma",
+    "ingredients": ["Vermicelli", "Onion", "Green Chillies", "Ginger", "Curry Leaves", "Mustard Seeds", "Peanuts", "Salt"],
+    "quantities": ["1 cup", "1 medium", "2-3", "1 inch", "10-12", "1 tsp", "2 tbsp", "to taste"]
+  },
+  {
+    "name": "Poha",
+    "ingredients": ["Poha/Flattened Rice", "Onion", "Green Chillies", "Curry Leaves", "Mustard Seeds", "Turmeric", "Peanuts", "Lemon Juice"],
+    "quantities": ["2 cups", "1 medium", "2-3", "10-12", "1 tsp", "1/4 tsp", "2 tbsp", "2 tbsp"]
+  },
+  {
+    "name": "Sweet Pongal",
+    "ingredients": ["Rice", "Moong Dal", "Jaggery", "Ghee", "Cashews", "Raisins", "Cardamom", "Milk"],
+    "quantities": ["1 cup", "1/2 cup", "1 cup", "1/4 cup", "15-20", "2 tbsp", "4-5 pods", "1/2 cup"]
+  },
+  {
+    "name": "Khara Bath",
+    "ingredients": ["Rava/Semolina", "Mixed Vegetables", "Coconut", "Cashews", "Ghee", "Mustard Seeds", "Curry Leaves", "Salt"],
+    "quantities": ["1 cup", "1 cup", "2 tbsp grated", "10-12", "3 tbsp", "1 tsp", "10-12", "to taste"]
+  },
+  {
+    "name": "Kesari Bath",
+    "ingredients": ["Rava/Semolina", "Sugar", "Ghee", "Cashews", "Raisins", "Saffron", "Cardamom", "Water"],
+    "quantities": ["1 cup", "1 cup", "1/2 cup", "15-20", "2 tbsp", "few strands", "4-5 pods", "2.5 cups"]
+  },
+  {
+    "name": "Aloo Bonda",
+    "ingredients": ["Potato", "Onion", "Green Chillies", "Besan", "Rice Flour", "Curry Leaves", "Oil", "Salt"],
+    "quantities": ["4 medium", "1 large", "3-4", "1 cup", "2 tbsp", "15-20", "for frying", "to taste"]
+  },
+  {
+    "name": "Mysore Bonda",
+    "ingredients": ["All Purpose Flour", "Yogurt", "Coconut", "Green Chillies", "Ginger", "Curry Leaves", "Baking Soda", "Oil"],
+    "quantities": ["1 cup", "1/2 cup", "2 tbsp grated", "3-4", "1 inch", "10-12", "1/4 tsp", "for frying"]
+  },
+  {
+    "name": "Masala Vada",
+    "ingredients": ["Chana Dal", "Onion", "Green Chillies", "Ginger", "Curry Leaves", "Fennel Seeds", "Asafoetida", "Oil"],
+    "quantities": ["1 cup", "2 medium", "4-5", "1 inch", "15-20", "1 tsp", "a pinch", "for frying"]
+  },
+  {
+    "name": "Paruppu Vadai",
+    "ingredients": ["Chana Dal", "Red Chillies", "Ginger", "Curry Leaves", "Onion", "Asafoetida", "Salt", "Oil"],
+    "quantities": ["1 cup", "4-5", "1 inch", "15-20", "1 chopped", "a pinch", "to taste", "for frying"]
+  },
+  {
+    "name": "Ulundu Vadai",
+    "ingredients": ["Urad Dal", "Green Chillies", "Ginger", "Curry Leaves", "Onion", "Asafoetida", "Salt", "Oil"],
+    "quantities": ["1 cup", "3-4", "1 inch", "15-20", "1 chopped", "a pinch", "to taste", "for frying"]
+  },
+  {
+    "name": "Thayir Vadai",
+    "ingredients": ["Urad Dal Vada", "Yogurt", "Green Chillies", "Ginger", "Curry Leaves", "Mustard Seeds", "Coriander", "Salt"],
+    "quantities": ["6-8 pieces", "2 cups", "2-3", "1/2 inch", "10-12", "1 tsp", "for garnish", "to taste"]
+  },
+  {
+    "name": "Sambar Vadai",
+    "ingredients": ["Urad Dal Vada", "Sambar", "Onion", "Curry Leaves", "Coriander"],
+    "quantities": ["6-8 pieces", "2 cups", "1 chopped", "15-20", "for garnish"]
+  },
+  {
+    "name": "Murukku",
+    "ingredients": ["Rice Flour", "Urad Dal Flour", "Butter", "Sesame Seeds", "Cumin Seeds", "Asafoetida", "Salt", "Oil"],
+    "quantities": ["2 cups", "1/2 cup", "2 tbsp", "1 tbsp", "1 tsp", "a pinch", "to taste", "for frying"]
+  },
+  {
+    "name": "Thenkuzhal",
+    "ingredients": ["Rice Flour", "Urad Dal Flour", "Butter", "Cumin Seeds", "Asafoetida", "Salt", "Oil"],
+    "quantities": ["2 cups", "1/4 cup", "2 tbsp", "1 tsp", "a pinch", "to taste", "for frying"]
+  },
+  {
+    "name": "Ribbon Pakoda",
+    "ingredients": ["Besan", "Rice Flour", "Butter", "Red Chilli Powder", "Asafoetida", "Sesame Seeds", "Salt", "Oil"],
+    "quantities": ["1 cup", "1 cup", "3 tbsp", "1 tsp", "a pinch", "1 tbsp", "to taste", "for frying"]
+  },
+  {
+    "name": "Banana Chips",
+    "ingredients": ["Raw Banana", "Turmeric", "Salt", "Oil"],
+    "quantities": ["4-5 large", "1/2 tsp", "to taste", "for frying"]
+  },
+  {
+    "name": "Mixture",
+    "ingredients": ["Besan", "Rice Flour", "Peanuts", "Curry Leaves", "Red Chilli Powder", "Asafoetida", "Salt", "Oil"],
+    "quantities": ["1 cup", "1/2 cup", "1/2 cup", "20-25", "1 tsp", "a pinch", "to taste", "for frying"]
+  },
+  {
+    "name": "Seedai",
+    "ingredients": ["Rice Flour", "Urad Dal Flour", "Butter", "Sesame Seeds", "Cumin Seeds", "Asafoetida", "Salt"],
+    "quantities": ["2 cups", "1/4 cup", "3 tbsp", "2 tbsp", "1 tsp", "a pinch", "to taste"]
+  },
+  {
+    "name": "Kai Murukku",
+    "ingredients": ["Rice Flour", "Urad Dal Flour", "Butter", "Cumin Seeds", "Sesame Seeds", "Asafoetida", "Salt", "Oil"],
+    "quantities": ["2 cups", "1/2 cup", "2 tbsp", "1 tsp", "1 tbsp", "a pinch", "to taste", "for frying"]
+  },
+  {
+    "name": "Omapodi",
+    "ingredients": ["Besan", "Rice Flour", "Butter", "Ajwain/Carom Seeds", "Asafoetida", "Salt", "Oil"],
+    "quantities": ["2 cups", "1/2 cup", "2 tbsp", "1 tsp", "a pinch", "to taste", "for frying"]
+  },
+  {
+    "name": "Kara Sev",
+    "ingredients": ["Besan", "Rice Flour", "Red Chilli Powder", "Asafoetida", "Butter", "Salt", "Oil"],
+    "quantities": ["2 cups", "1/2 cup", "1.5 tsp", "a pinch", "2 tbsp", "to taste", "for frying"]
+  },
+  {
+    "name": "Bajji",
+    "ingredients": ["Besan", "Rice Flour", "Vegetables", "Red Chilli Powder", "Asafoetida", "Baking Soda", "Salt", "Oil"],
+    "quantities": ["1 cup", "2 tbsp", "as needed", "1 tsp", "a pinch", "1/4 tsp", "to taste", "for frying"]
+  },
+  {
+    "name": "Pakora",
+    "ingredients": ["Besan", "Onion", "Green Chillies", "Curry Leaves", "Red Chilli Powder", "Baking Soda", "Salt", "Oil"],
+    "quantities": ["1 cup", "2 sliced", "3-4", "15-20", "1 tsp", "1/4 tsp", "to taste", "for frying"]
+  },
+  {
+    "name": "Payasam",
+    "ingredients": ["Milk", "Sugar", "Vermicelli/Rice", "Cardamom", "Cashews", "Raisins", "Ghee", "Saffron"],
+    "quantities": ["1 liter", "1/2 cup", "1/2 cup", "4-5 pods", "15-20", "2 tbsp", "2 tbsp", "few strands"]
+  },
+  {
+    "name": "Semiya Payasam",
+    "ingredients": ["Vermicelli", "Milk", "Sugar", "Cardamom", "Cashews", "Raisins", "Ghee", "Saffron"],
+    "quantities": ["1/2 cup", "1 liter", "1/2 cup", "4-5 pods", "15-20", "2 tbsp", "2 tbsp", "few strands"]
+  },
+  {
+    "name": "Paruppu Payasam",
+    "ingredients": ["Moong Dal", "Jaggery", "Coconut Milk", "Cardamom", "Cashews", "Raisins", "Ghee"],
+    "quantities": ["1/2 cup", "3/4 cup", "1 cup", "4-5 pods", "15-20", "2 tbsp", "2 tbsp"]
+  },
+  {
+    "name": "Paal Payasam",
+    "ingredients": ["Raw Rice", "Milk", "Sugar", "Cardamom", "Cashews", "Raisins", "Ghee", "Saffron"],
+    "quantities": ["1/2 cup", "1 liter", "1/2 cup", "4-5 pods", "15-20", "2 tbsp", "2 tbsp", "few strands"]
+  },
+  {
+    "name": "Ada Pradhaman",
+    "ingredients": ["Ada/Rice Flakes", "Jaggery", "Coconut Milk", "Cardamom", "Cashews", "Raisins", "Ghee"],
+    "quantities": ["1 cup", "1 cup", "2 cups", "4-5 pods", "15-20", "2 tbsp", "2 tbsp"]
+  },
+  {
+    "name": "Carrot Payasam",
+    "ingredients": ["Carrot", "Milk", "Sugar", "Cardamom", "Cashews", "Raisins", "Ghee"],
+    "quantities": ["2 cups grated", "1 liter", "1/2 cup", "4-5 pods", "15-20", "2 tbsp", "2 tbsp"]
+  },
+  {
+    "name": "Mysore Pak",
+    "ingredients": ["Besan", "Sugar", "Ghee", "Cardamom", "Water"],
+    "quantities": ["1 cup", "1 cup", "1.5 cups", "4-5 pods", "1/2 cup"]
+  },
+  {
+    "name": "Badusha",
+    "ingredients": ["All Purpose Flour", "Yogurt", "Ghee", "Sugar", "Cardamom", "Saffron", "Oil"],
+    "quantities": ["2 cups", "2 tbsp", "1/4 cup", "2 cups for syrup", "4-5 pods", "few strands", "for frying"]
+  },
+  {
+    "name": "Gulab Jamun",
+    "ingredients": ["Khoya", "All Purpose Flour", "Milk Powder", "Sugar", "Cardamom", "Rose Water", "Saffron", "Oil"],
+    "quantities": ["1 cup", "2 tbsp", "2 tbsp", "2 cups for syrup", "4-5 pods", "1 tsp", "few strands", "for frying"]
+  },
+  {
+    "name": "Jangri",
+    "ingredients": ["Urad Dal Flour", "Sugar", "Food Color", "Cardamom", "Saffron", "Ghee"],
+    "quantities": ["1 cup", "2 cups for syrup", "a pinch", "4-5 pods", "few strands", "for frying"]
+  },
+  {
+    "name": "Adhirasam",
+    "ingredients": ["Raw Rice", "Jaggery", "Cardamom", "Ghee", "Sesame Seeds", "Oil"],
+    "quantities": ["2 cups", "1 cup", "4-5 pods", "2 tbsp", "2 tbsp", "for frying"]
+  },
+  {
+    "name": "Ladoo",
+    "ingredients": ["Besan/Rava", "Sugar", "Ghee", "Cardamom", "Cashews", "Raisins"],
+    "quantities": ["2 cups", "1 cup", "1/2 cup", "4-5 pods", "15-20", "2 tbsp"]
+  },
+  {
+    "name": "Coconut Burfi",
+    "ingredients": ["Coconut", "Sugar", "Milk", "Cardamom", "Ghee", "Cashews"],
+    "quantities": ["2 cups grated", "1 cup", "1/2 cup", "4-5 pods", "2 tbsp", "15-20"]
+  },
+  {
+    "name": "Milk Burfi",
+    "ingredients": ["Milk Powder", "Condensed Milk", "Ghee", "Cardamom", "Pistachios", "Saffron"],
+    "quantities": ["2 cups", "1 cup", "1/4 cup", "4-5 pods", "for garnish", "few strands"]
+  },
+  {
+    "name": "Badam Halwa",
+    "ingredients": ["Almonds", "Sugar", "Ghee", "Milk", "Cardamom", "Saffron"],
+    "quantities": ["1 cup", "3/4 cup", "1/2 cup", "1 cup", "4-5 pods", "few strands"]
+  },
+  {
+    "name": "Carrot Halwa",
+    "ingredients": ["Carrot", "Milk", "Sugar", "Ghee", "Cardamom", "Cashews", "Raisins"],
+    "quantities": ["4 cups grated", "2 cups", "3/4 cup", "1/2 cup", "4-5 pods", "15-20", "2 tbsp"]
+  },
+  {
+    "name": "Moong Dal Halwa",
+    "ingredients": ["Moong Dal", "Sugar", "Ghee", "Milk", "Cardamom", "Cashews", "Saffron"],
+    "quantities": ["1 cup", "1 cup", "1 cup", "2 cups", "4-5 pods", "15-20", "few strands"]
+  },
+  {
+    "name": "Poli/Holige",
+    "ingredients": ["All Purpose Flour", "Chana Dal", "Jaggery", "Cardamom", "Ghee", "Turmeric"],
+    "quantities": ["2 cups", "1 cup", "1.5 cups", "4-5 pods", "for cooking", "a pinch"]
+  },
+  {
+    "name": "Coconut Kayi",
+    "ingredients": ["Rice Flour", "Coconut", "Jaggery", "Cardamom", "Ghee"],
+    "quantities": ["1 cup", "1 cup grated", "1/2 cup", "3-4 pods", "2 tbsp"]
+  },
+  {
+    "name": "Rava Ladoo",
+    "ingredients": ["Rava/Semolina", "Sugar", "Coconut", "Cardamom", "Ghee", "Cashews", "Raisins"],
+    "quantities": ["1 cup", "3/4 cup", "1/4 cup grated", "4-5 pods", "1/2 cup", "15-20", "2 tbsp"]
+  },
+  {
+    "name": "Coconut Ladoo",
+    "ingredients": ["Coconut", "Condensed Milk", "Cardamom", "Ghee", "Milk Powder"],
+    "quantities": ["2 cups grated", "1/2 cup", "3-4 pods", "1 tbsp", "1/4 cup"]
+  },
+  {
+    "name": "Nei Appam",
+    "ingredients": ["Rice Flour", "Jaggery", "Coconut", "Cardamom", "Banana", "Ghee"],
+    "quantities": ["1 cup", "1/2 cup", "1/4 cup grated", "3-4 pods", "1 ripe", "for frying"]
+  },
+  {
+    "name": "Unniappam",
+    "ingredients": ["Rice Flour", "Banana", "Jaggery", "Coconut", "Cardamom", "Cumin Seeds", "Ghee"],
+    "quantities": ["1 cup", "2 ripe", "1/2 cup", "1/4 cup grated", "3-4 pods", "1/2 tsp", "for cooking"]
+  },
+  {
+    "name": "Sweet Paniyaram",
+    "ingredients": ["Idli Batter", "Jaggery", "Coconut", "Cardamom", "Banana", "Ghee"],
+    "quantities": ["2 cups", "1/2 cup", "1/4 cup grated", "3-4 pods", "1 ripe", "for cooking"]
+  },
+  {
+    "name": "Vazhaipoo Vadai",
+    "ingredients": ["Banana Flower", "Chana Dal", "Red Chillies", "Onion", "Ginger", "Curry Leaves", "Fennel Seeds", "Oil"],
+    "quantities": ["1 cup chopped", "1 cup", "4-5", "1 chopped", "1 inch", "15-20", "1 tsp", "for frying"]
+  },
+  {
+    "name": "Vendakkai Puli Kuzhambu",
+    "ingredients": ["Okra", "Tamarind", "Sambar Powder", "Onion", "Tomato", "Curry Leaves", "Mustard Seeds", "Oil"],
+    "quantities": ["250g", "lemon-sized", "2 tbsp", "1 medium", "1 medium", "15-20", "1 tsp", "3 tbsp"]
+  },
+  {
+    "name": "Brinjal Curry",
+    "ingredients": ["Brinjal", "Onion", "Tomato", "Tamarind", "Sambar Powder", "Curry Leaves", "Mustard Seeds", "Oil"],
+    "quantities": ["500g", "2 medium", "2 medium", "small piece", "2 tbsp", "15-20", "1 tsp", "3 tbsp"]
+  },
+  {
+    "name": "Drumstick Curry",
+    "ingredients": ["Drumstick", "Coconut", "Tamarind", "Green Chillies", "Curry Leaves", "Mustard Seeds", "Turmeric", "Salt"],
+    "quantities": ["6-8 pieces", "1/2 cup grated", "small piece", "3-4", "15-20", "1 tsp", "1/2 tsp", "to taste"]
+  },
+  {
+    "name": "Beetroot Poriyal",
+    "ingredients": ["Beetroot", "Coconut", "Urad Dal", "Mustard Seeds", "Curry Leaves", "Green Chillies", "Turmeric", "Salt"],
+    "quantities": ["2 cups chopped", "1/4 cup grated", "1 tsp", "1 tsp", "10-12", "2-3", "1/4 tsp", "to taste"]
+  },
+  {
+    "name": "Carrot Poriyal",
+    "ingredients": ["Carrot", "Coconut", "Urad Dal", "Mustard Seeds", "Curry Leaves", "Green Chillies", "Turmeric", "Salt"],
+    "quantities": ["2 cups chopped", "1/4 cup grated", "1 tsp", "1 tsp", "10-12", "2-3", "1/4 tsp", "to taste"]
+  },
+  {
+    "name": "Beans Poriyal",
+    "ingredients": ["Green Beans", "Coconut", "Urad Dal", "Mustard Seeds", "Curry Leaves", "Green Chillies", "Turmeric", "Salt"],
+    "quantities": ["2 cups chopped", "1/4 cup grated", "1 tsp", "1 tsp", "10-12", "2-3", "1/4 tsp", "to taste"]
+  },
+  {
+    "name": "Cabbage Poriyal",
+    "ingredients": ["Cabbage", "Coconut", "Urad Dal", "Mustard Seeds", "Curry Leaves", "Green Chillies", "Turmeric", "Salt"],
+    "quantities": ["3 cups shredded", "1/4 cup grated", "1 tsp", "1 tsp", "10-12", "2-3", "1/4 tsp", "to taste"]
+  },
+  {
+    "name": "Potato Fry",
+    "ingredients": ["Potato", "Onion", "Curry Leaves", "Mustard Seeds", "Turmeric", "Red Chilli Powder", "Oil", "Salt"],
+    "quantities": ["4 medium", "1 large", "15-20", "1 tsp", "1/2 tsp", "1 tsp", "3 tbsp", "to taste"]
+  },
+  {
+    "name": "Kathirikai Poriyal",
+    "ingredients": ["Brinjal", "Onion", "Tomato", "Curry Leaves", "Mustard Seeds", "Turmeric", "Tamarind", "Salt"],
+    "quantities": ["4 medium", "1 large", "1 medium", "15-20", "1 tsp", "1/2 tsp", "small piece", "to taste"]
+  },
+  {
+    "name": "Vazhakkai Podimas",
+    "ingredients": ["Raw Banana", "Coconut", "Green Chillies", "Curry Leaves", "Mustard Seeds", "Turmeric", "Urad Dal", "Salt"],
+    "quantities": ["2 large", "1/4 cup grated", "3-4", "15-20", "1 tsp", "1/2 tsp", "1 tsp", "to taste"]
+  },
+  {
+    "name": "Vendakkai Fry",
+    "ingredients": ["Okra", "Onion", "Curry Leaves", "Mustard Seeds", "Red Chilli Powder", "Turmeric", "Oil", "Salt"],
+    "quantities": ["250g", "1 medium", "15-20", "1 tsp", "1 tsp", "1/2 tsp", "3 tbsp", "to taste"]
+  },
+  {
+    "name": "Appalam",
+    "ingredients": ["Urad Dal Flour", "Black Pepper", "Cumin Seeds", "Asafoetida", "Salt", "Oil"],
+    "quantities": ["2 cups", "2 tsp", "1 tsp", "a pinch", "to taste", "for frying"]
+  },
+  {
+    "name": "Vadam",
+    "ingredients": ["Sabudana/Rice Flour", "Green Chillies", "Cumin Seeds", "Asafoetida", "Salt"],
+    "quantities": ["2 cups", "3-4", "1 tsp", "a pinch", "to taste"]
+  },
+  {
+    "name": "Mor Milagai",
+    "ingredients": ["Green Chillies", "Yogurt", "Asafoetida", "Salt", "Fenugreek Seeds"],
+    "quantities": ["250g", "2 cups", "a pinch", "to taste", "1/4 tsp"]
+  },
+  {
+    "name": "Nethili Fry",
+    "ingredients": ["Anchovy Fish", "Red Chilli Powder", "Turmeric", "Curry Leaves", "Onion", "Garlic", "Oil", "Salt"],
+    "quantities": ["250g", "2 tsp", "1/2 tsp", "15-20", "1 chopped", "6-8 cloves", "for frying", "to taste"]
+  },
+  {
+    "name": "Prawn Fry",
+    "ingredients": ["Prawns", "Red Chilli Powder", "Turmeric", "Curry Leaves", "Onion", "Garlic", "Oil", "Salt"],
+    "quantities": ["500g", "2 tsp", "1/2 tsp", "15-20", "2 chopped", "8-10 cloves", "3 tbsp", "to taste"]
+  },
+  {
+    "name": "Karimeen Fry",
+    "ingredients": ["Pearl Spot Fish", "Red Chilli Powder", "Turmeric", "Curry Leaves", "Coconut Oil", "Garlic", "Salt"],
+    "quantities": ["4 pieces", "2 tsp", "1/2 tsp", "15-20", "for frying", "8-10 cloves", "to taste"]
+  },
+  {
+    "name": "Meen Kuzhambu",
+    "ingredients": ["Fish", "Tamarind", "Coconut", "Red Chillies", "Curry Leaves", "Mustard Seeds", "Fenugreek Seeds", "Salt"],
+    "quantities": ["500g", "lemon-sized", "1/4 cup grated", "5-6", "15-20", "1 tsp", "1/4 tsp", "to taste"]
+  },
+  {
+    "name": "Prawn Masala",
+    "ingredients": ["Prawns", "Onion", "Tomato", "Coconut Milk", "Ginger-Garlic Paste", "Curry Leaves", "Spices", "Oil"],
+    "quantities": ["500g", "2 medium", "2 medium", "1 cup", "2 tbsp", "15-20", "as needed", "3 tbsp"]
+  },
+  {
+    "name": "Crab Masala",
+    "ingredients": ["Crab", "Onion", "Tomato", "Coconut", "Ginger-Garlic Paste", "Curry Leaves", "Spices", "Oil"],
+    "quantities": ["500g", "2 medium", "2 medium", "1/2 cup grated", "2 tbsp", "15-20", "as needed", "3 tbsp"]
+  },
+  {
+    "name": "Squid Fry",
+    "ingredients": ["Squid", "Red Chilli Powder", "Turmeric", "Curry Leaves", "Onion", "Ginger-Garlic Paste", "Oil", "Salt"],
+    "quantities": ["500g", "2 tsp", "1/2 tsp", "15-20", "2 chopped", "2 tbsp", "3 tbsp", "to taste"]
+  },
+  {
+    "name": "Fish Moilee",
+    "ingredients": ["Fish", "Coconut Milk", "Green Chillies", "Ginger", "Curry Leaves", "Turmeric", "Mustard Seeds", "Vinegar"],
+    "quantities": ["500g", "2 cups", "4-5", "2 inch", "15-20", "1/2 tsp", "1 tsp", "1 tbsp"]
+  },
+  {
+    "name": "Prawn Pepper Fry",
+    "ingredients": ["Prawns", "Black Pepper", "Garlic", "Curry Leaves", "Onion", "Tomato", "Oil", "Salt"],
+    "quantities": ["500g", "2 tsp", "10 cloves", "15-20", "2 chopped", "1 chopped", "3 tbsp", "to taste"]
+  },
+  {
+    "name": "Muttai Kuzhambu",
+    "ingredients": ["Eggs", "Onion", "Tomato", "Coconut", "Tamarind", "Curry Leaves", "Spices", "Oil"],
+    "quantities": ["6 boiled", "2 medium", "2 medium", "1/4 cup grated", "small piece", "15-20", "as needed", "3 tbsp"]
+  },
+  {
+    "name": "Egg Roast",
+    "ingredients": ["Eggs", "Onion", "Tomato", "Curry Leaves", "Ginger-Garlic Paste", "Red Chilli Powder", "Coconut", "Oil"],
+    "quantities": ["6 boiled", "2 medium", "2 medium", "15-20", "1 tbsp", "2 tsp", "1/4 cup grated", "3 tbsp"]
+  },
+  {
+    "name": "Egg Curry",
+    "ingredients": ["Eggs", "Onion", "Tomato", "Coconut Milk", "Curry Leaves", "Ginger-Garlic Paste", "Spices", "Oil"],
+    "quantities": ["6 boiled", "2 medium", "2 medium", "1 cup", "15-20", "1 tbsp", "as needed", "3 tbsp"]
+  },
+  {
+    "name": "Mutton Varuval",
+    "ingredients": ["Mutton", "Onion", "Curry Leaves", "Ginger-Garlic Paste", "Coriander Powder", "Fennel Seeds", "Coconut", "Oil"],
+    "quantities": ["500g", "2 large", "15-20", "2 tbsp", "2 tbsp", "1 tbsp", "1/2 cup grated", "3 tbsp"]
+  },
+  {
+    "name": "Mutton Curry",
+    "ingredients": ["Mutton", "Onion", "Tomato", "Yogurt", "Ginger-Garlic Paste", "Curry Leaves", "Spices", "Oil"],
+    "quantities": ["500g", "2 medium", "2 medium", "1/2 cup", "2 tbsp", "15-20", "as needed", "3 tbsp"]
+  },
+  {
+    "name": "Nandu Masala",
+    "ingredients": ["Crab", "Onion", "Tomato", "Coconut", "Ginger-Garlic Paste", "Curry Leaves", "Spices", "Oil"],
+    "quantities": ["500g", "2 medium", "2 medium", "1/2 cup grated", "2 tbsp", "15-20", "as needed", "3 tbsp"]
+  },
+  {
+    "name": "Chicken Curry",
+    "ingredients": ["Chicken", "Onion", "Tomato", "Coconut Milk", "Ginger-Garlic Paste", "Curry Leaves", "Spices", "Oil"],
+    "quantities": ["500g", "2 medium", "2 medium", "1 cup", "2 tbsp", "15-20", "as needed", "3 tbsp"]
+  },
+  {
+    "name": "Chicken Fry",
+    "ingredients": ["Chicken", "Onion", "Curry Leaves", "Ginger-Garlic Paste", "Red Chilli Powder", "Coriander Powder", "Oil", "Salt"],
+    "quantities": ["500g", "2 chopped", "15-20", "2 tbsp", "2 tsp", "1 tbsp", "3 tbsp", "to taste"]
+  },
+  {
+    "name": "Chicken 65",
+    "ingredients": ["Chicken", "Yogurt", "Ginger-Garlic Paste", "Red Chilli Powder", "Corn Flour", "Curry Leaves", "Oil", "Salt"],
+    "quantities": ["500g", "1/4 cup", "1 tbsp", "2 tsp", "2 tbsp", "20-25", "for frying", "to taste"]
+  },
+  {
+    "name": "Mutton Biryani",
+    "ingredients": ["Mutton", "Basmati Rice", "Onion", "Tomato", "Yogurt", "Mint", "Coriander", "Biryani Masala"],
+    "quantities": ["500g", "2 cups", "3 large", "2 medium", "1/2 cup", "1/2 cup", "1/2 cup", "3 tbsp"]
+  },
+  {
+    "name": "Chicken Biryani",
+    "ingredients": ["Chicken", "Basmati Rice", "Onion", "Tomato", "Yogurt", "Mint", "Coriander", "Biryani Masala"],
+    "quantities": ["500g", "2 cups", "3 large", "2 medium", "1/2 cup", "1/2 cup", "1/2 cup", "3 tbsp"]
+  },
+  {
+    "name": "Prawn Biryani",
+    "ingredients": ["Prawns", "Basmati Rice", "Onion", "Tomato", "Yogurt", "Mint", "Coriander", "Biryani Masala"],
+    "quantities": ["500g", "2 cups", "3 large", "2 medium", "1/2 cup", "1/2 cup", "1/2 cup", "3 tbsp"]
+  },
+  {
+    "name": "Fish Biryani",
+    "ingredients": ["Fish", "Basmati Rice", "Onion", "Tomato", "Yogurt", "Mint", "Coriander", "Biryani Masala"],
+    "quantities": ["500g", "2 cups", "3 large", "2 medium", "1/2 cup", "1/2 cup", "1/2 cup", "3 tbsp"]
+  },
+  {
+    "name": "Vegetable Biryani",
+    "ingredients": ["Mixed Vegetables", "Basmati Rice", "Onion", "Tomato", "Yogurt", "Mint", "Coriander", "Biryani Masala"],
+    "quantities": ["3 cups", "2 cups", "3 large", "2 medium", "1/2 cup", "1/2 cup", "1/2 cup", "3 tbsp"]
+  },
+  {
+    "name": "Paneer Butter Masala",
+    "ingredients": ["Paneer", "Onion", "Tomato", "Cream", "Butter", "Cashews", "Spices", "Coriander"],
+    "quantities": ["300g", "2 medium", "4 medium", "1/2 cup", "3 tbsp", "10-12", "as needed", "for garnish"]
+  },
+  {
+    "name": "Chettinad Kulambu",
+    "ingredients": ["Tamarind", "Onion", "Tomato", "Chettinad Masala", "Coconut", "Curry Leaves", "Mustard Seeds", "Oil"],
+    "quantities": ["lemon-sized", "2 medium", "2 medium", "3 tbsp", "1/4 cup grated", "15-20", "1 tsp", "3 tbsp"]
+  },
+  {
+    "name": "Mor Milagu Rasam",
+    "ingredients": ["Yogurt", "Black Pepper", "Cumin Seeds", "Green Chillies", "Curry Leaves", "Mustard Seeds", "Coriander", "Salt"],
+    "quantities": ["2 cups", "2 tsp", "1 tsp", "3-4", "15-20", "1 tsp", "for garnish", "to taste"]
+  },
+  {
+    "name": "Vendhaya Kuzhambu",
+    "ingredients": ["Tamarind", "Fenugreek Seeds", "Sambar Powder", "Onion", "Tomato", "Curry Leaves", "Mustard Seeds", "Oil"],
+    "quantities": ["lemon-sized", "2 tsp", "2 tbsp", "1 medium", "1 medium", "15-20", "1 tsp", "3 tbsp"]
+  },
+  {
+    "name": "Arachuvitta Sambar",
+    "ingredients": ["Toor Dal", "Vegetables", "Tamarind", "Coconut", "Red Chillies", "Coriander Seeds", "Curry Leaves", "Salt"],
+    "quantities": ["1 cup", "2 cups", "lemon-sized", "1/2 cup grated", "5-6", "2 tbsp", "15-20", "to taste"]
+  },
+  {
+    "name": "Paruppu Urundai Kuzhambu",
+    "ingredients": ["Toor Dal", "Chana Dal", "Red Chillies", "Tamarind", "Sambar Powder", "Curry Leaves", "Mustard Seeds", "Oil"],
+    "quantities": ["1/2 cup", "1/4 cup", "4-5", "lemon-sized", "2 tbsp", "15-20", "1 tsp", "3 tbsp"]
+  },
+  {
+    "name": "Ellu Sadam",
+    "ingredients": ["Cooked Rice", "Sesame Seeds", "Red Chillies", "Curry Leaves", "Mustard Seeds", "Urad Dal", "Asafoetida", "Salt"],
+    "quantities": ["3 cups", "1/2 cup", "4-5", "15-20", "1 tsp", "1 tsp", "a pinch", "to taste"]
+  },
+  {
+    "name": "Milagu Sadam",
+    "ingredients": ["Cooked Rice", "Black Pepper", "Cashews", "Curry Leaves", "Mustard Seeds", "Urad Dal", "Ghee", "Salt"],
+    "quantities": ["3 cups", "2 tbsp", "15-20", "15-20", "1 tsp", "1 tsp", "3 tbsp", "to taste"]
+  },
+  {
+    "name": "Tomato Sadam",
+    "ingredients": ["Cooked Rice", "Tomato", "Peanuts", "Curry Leaves", "Mustard Seeds", "Urad Dal", "Red Chillies", "Salt"],
+    "quantities": ["3 cups", "4 large", "1/4 cup", "15-20", "1 tsp", "1 tsp", "4-5", "to taste"]
+  },
+  {
+    "name": "Mint Rice",
+    "ingredients": ["Cooked Rice", "Mint Leaves", "Coconut", "Green Chillies", "Curry Leaves", "Peanuts", "Cashews", "Salt"],
+    "quantities": ["3 cups", "2 cups", "1/4 cup grated", "3-4", "15-20", "1/4 cup", "15-20", "to taste"]
+  },
+  {
+    "name": "Curry Leaf Rice",
+    "ingredients": ["Cooked Rice", "Curry Leaves", "Peanuts", "Cashews", "Chana Dal", "Urad Dal", "Mustard Seeds", "Salt"],
+    "quantities": ["3 cups", "1 cup", "1/4 cup", "15-20", "1 tbsp", "1 tbsp", "1 tsp", "to taste"]
+  },
+  {
+    "name": "Tamarind Rice",
+    "ingredients": ["Cooked Rice", "Tamarind", "Peanuts", "Curry Leaves", "Sesame Seeds", "Mustard Seeds", "Red Chillies", "Salt"],
+    "quantities": ["3 cups", "lemon-sized", "1/4 cup", "15-20", "1 tbsp", "1 tsp", "5-6", "to taste"]
+  },
+  {
+    "name": "Coriander Rice",
+    "ingredients": ["Cooked Rice", "Coriander", "Coconut", "Green Chillies", "Curry Leaves", "Peanuts", "Cashews", "Salt"],
+    "quantities": ["3 cups", "2 cups", "1/4 cup grated", "3-4", "15-20", "1/4 cup", "15-20", "to taste"]
+  },
+  {
+    "name": "Gongura Rice",
+    "ingredients": ["Cooked Rice", "Gongura Leaves", "Peanuts", "Red Chillies", "Garlic", "Curry Leaves", "Mustard Seeds", "Salt"],
+    "quantities": ["3 cups", "2 cups", "1/4 cup", "5-6", "10 cloves", "15-20", "1 tsp", "to taste"]
+  },
+  {
+    "name": "Sesame Rice",
+    "ingredients": ["Cooked Rice", "Sesame Seeds", "Peanuts", "Red Chillies", "Curry Leaves", "Mustard Seeds", "Asafoetida", "Salt"],
+    "quantities": ["3 cups", "1/2 cup", "1/4 cup", "4-5", "15-20", "1 tsp", "a pinch", "to taste"]
+  },
+  {
+    "name": "Vangi Bath",
+    "ingredients": ["Rice", "Brinjal", "Coconut", "Peanuts", "Tamarind", "Vangi Bath Powder", "Curry Leaves", "Oil"],
+    "quantities": ["2 cups cooked", "2 medium", "1/4 cup grated", "1/4 cup", "small piece", "2 tbsp", "15-20", "3 tbsp"]
+  },
+  {
+    "name": "Capsicum Rice",
+    "ingredients": ["Cooked Rice", "Capsicum", "Onion", "Tomato", "Curry Leaves", "Cashews", "Spices", "Oil"],
+    "quantities": ["3 cups", "2 chopped", "1 large", "1 medium", "15-20", "15-20", "as needed", "3 tbsp"]
+  },
+  {
+    "name": "Mushroom Rice",
+    "ingredients": ["Cooked Rice", "Mushrooms", "Onion", "Tomato", "Curry Leaves", "Cashews", "Spices", "Oil"],
+    "quantities": ["3 cups", "200g", "1 large", "1 medium", "15-20", "15-20", "as needed", "3 tbsp"]
+  },
+  {
+    "name": "Garlic Rice",
+    "ingredients": ["Cooked Rice", "Garlic", "Curry Leaves", "Red Chillies", "Cashews", "Mustard Seeds", "Ghee", "Salt"],
+    "quantities": ["3 cups", "20 cloves", "15-20", "4-5", "15-20", "1 tsp", "3 tbsp", "to taste"]
+  },
+  {
+    "name": "Peas Pulao",
+    "ingredients": ["Basmati Rice", "Green Peas", "Onion", "Tomato", "Mint", "Cashews", "Spices", "Ghee"],
+    "quantities": ["2 cups", "1 cup", "1 large", "1 medium", "1/4 cup", "15-20", "as needed", "3 tbsp"]
+  },
+  {
+    "name": "Jeera Rice",
+    "ingredients": ["Basmati Rice", "Cumin Seeds", "Onion", "Green Chillies", "Curry Leaves", "Cashews", "Ghee", "Salt"],
+    "quantities": ["2 cups", "2 tsp", "1 medium", "2-3", "10-12", "15-20", "3 tbsp", "to taste"]
+  }
+]
