@@ -138,7 +138,7 @@ const Index = () => {
               Start Your Culinary Journey
             </h2>
             <p className="text-muted-foreground text-lg max-w-md mx-auto">
-              Search for any of the 30 South Indian dishes to see ingredients and watch cooking
+              Search for any of the 250 South Indian dishes to see ingredients and watch cooking
               videos
             </p>
           </div>
@@ -149,7 +149,7 @@ const Index = () => {
       <footer className="mt-16 py-8 bg-muted/30 border-t border-border">
         <div className="container mx-auto px-4 text-center">
           <p className="text-muted-foreground">
-            🍛 CookBuddy - Featuring 30 authentic South Indian recipes with smart search technology
+            🍛 CookBuddy - Featuring 250 authentic South Indian recipes with smart search technology
           </p>
         </div>
       </footer>
