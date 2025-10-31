@@ -1,73 +1,140 @@
-# Welcome to your Lovable project
+# 🍛 CookBuddy - Your Friendly Cooking Companion
 
-## Project info
+**CookBuddy** is a modern web application that helps you discover authentic South Indian recipes with intelligent search capabilities. Find ingredients, quantities, and cooking videos for over 250 traditional dishes.
 
-**URL**: https://lovable.dev/projects/65032de1-6c65-44d0-bdb8-60e180ced53e
+## 🌟 Features
 
-## How can I edit this code?
+- **Smart Search**: Find recipes with typo-tolerant search (e.g., "iddly" finds "Idli")
+- **250+ Recipes**: Comprehensive collection of authentic South Indian dishes
+- **Recipe Details**: Complete ingredients list with quantities
+- **YouTube Integration**: Watch cooking videos with your API key
+- **Responsive Design**: Works beautifully on desktop and mobile
+- **Custom Branding**: Professional UI with custom logo and theming
 
-There are several ways of editing your application.
+## 🚀 Live Demo
 
-**Use Lovable**
+- **Production**: [https://krazatec.github.io/cookbuddy/](https://krazatec.github.io/cookbuddy/)
+- **Alternative**: Deploy on Vercel or other platforms
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/65032de1-6c65-44d0-bdb8-60e180ced53e) and start prompting.
+## 🛠️ Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Framework**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS + shadcn/ui components
+- **Search**: Fuse.js for fuzzy search
+- **State Management**: React Query (TanStack Query)
+- **Icons**: Lucide React
+- **Deployment**: GitHub Pages + GitHub Actions
 
-**Use your preferred IDE**
+## 📦 Installation & Setup
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
+- Node.js 18+ and npm installed
+- Git for version control
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Local Development
 
-Follow these steps:
+```bash
+# Clone the repository
+git clone https://github.com/KRAZATEC/cookbuddy.git
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Navigate to project directory
+cd cookbuddy
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
+
+# Open http://localhost:8080 in your browser
 ```
 
-**Edit a file directly in GitHub**
+### Build for Production
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+# Build for GitHub Pages
+npm run build
 
-**Use GitHub Codespaces**
+# Build for Vercel
+npm run build:vercel
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Preview production build
+npm run preview
+```
 
-## What technologies are used for this project?
+## 🚀 Deployment
 
-This project is built with:
+### GitHub Pages (Automatic)
+The project automatically deploys to GitHub Pages via GitHub Actions when you push to the `master` branch.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Vercel
+1. Import your GitHub repository in Vercel dashboard
+2. Vercel will automatically detect the `vercel.json` configuration
+3. Deploy with one click!
 
-## How can I deploy this project?
+### Manual Deployment
+```bash
+# Deploy to GitHub Pages
+npm run deploy
+```
 
-Simply open [Lovable](https://lovable.dev/projects/65032de1-6c65-44d0-bdb8-60e180ced53e) and click on Share -> Publish.
+## 🎨 Customization
 
-## Can I connect a custom domain to my Lovable project?
+### Adding Recipes
+Edit `src/data/recipes.json` to add new recipes:
+```json
+{
+  "name": "Your Recipe Name",
+  "ingredients": ["ingredient1", "ingredient2"],
+  "quantities": ["1 cup", "2 tbsp"]
+}
+```
 
-Yes, you can!
+### YouTube Integration
+1. Get a YouTube Data API v3 key from [Google Cloud Console](https://console.cloud.google.com/apis/credentials)
+2. Enter your API key in the app to enable cooking videos
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Styling
+- Customize colors in `tailwind.config.ts`
+- Modify components in `src/components/ui/`
+- Update logo by replacing `public/cookbuddy-logo.jpg`
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📝 Project Structure
+
+```
+cookbuddy/
+├── src/
+│   ├── components/        # React components
+│   ├── data/             # Recipe data
+│   ├── hooks/            # Custom React hooks
+│   ├── lib/              # Utility functions
+│   └── pages/            # Page components
+├── public/               # Static assets
+├── .github/workflows/    # GitHub Actions
+├── vercel.json          # Vercel configuration
+└── vite.config.ts       # Vite configuration
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/new-feature`
+3. Make your changes and commit: `git commit -m 'Add new feature'`
+4. Push to the branch: `git push origin feature/new-feature`
+5. Open a Pull Request
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- Recipe data sourced from authentic South Indian cuisine
+- UI components powered by shadcn/ui
+- Search functionality enhanced with Fuse.js
+- Icons provided by Lucide React
+
+---
+
+Made with ❤️ for South Indian food lovers everywhere! 🍛✨
